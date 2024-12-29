@@ -1,7 +1,8 @@
-a = passos_iniciais = int(input('iniciaais: '))
-b = passos_finais = int(input('finais: '))
+from itertools import count
 
-t =  passos_finais + passos_iniciais
-print(t, 'paços foram necessarios para atravessar a floresta')
-
-eu gostarai de saber se consigo por uma mensagem na tela, caso o valor não seja um valor inteiro ou numero.
+nome = str(input(''))
+print(nome.upper())
+print(nome.lower())
+print(len(nome) - nome.count(' '))
+var = nome.split()
+print(len(var[0]))
